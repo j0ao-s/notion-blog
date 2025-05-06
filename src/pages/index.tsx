@@ -1,9 +1,9 @@
 import Header from '../components/header'
 import ExtLink from '../components/ext-link'
-import Features from '../components/features'
+//import Features from '../components/features'
 import sharedStyles from '../styles/shared.module.css'
-import Contact from './contact'
-import Footer from '../components/footer'
+//import Contact from './contact'
+//import Footer from '../components/footer'
 
 export default function Index() {
   return (
@@ -35,9 +35,11 @@ export default function Index() {
             Bem vindo ao meu Blog Pessoal, me chamo João Manoel e sou um
             apaixonado por programação e desenvolvimento, acredito na capacidade
             transformadora da Tecnologia, que utilizada como ferramenta pode
-            abrir muitas portas e oportunidades. Atualmente Estou concluindo
+            abrir muitas portas e oportunidades. Atualmente estou concluindo
             minha Graduação em Engenharia de Software e meu Ensino Técnico em
-            Desenvolvimento de Jogos.
+            Desenvolvimento de Jogos. Se quiser conhecer um pouco mais de mim
+            acesse meu{' '}
+            <ExtLink href="joaomanoel.netlify.app"> portifólio. </ExtLink>{' '}
           </p>
 
           <p>
